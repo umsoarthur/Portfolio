@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-arthur-magalhaes",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Portfólio de Arthur Magalhães — Senior Product & UX/UI Designer",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --serve"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
