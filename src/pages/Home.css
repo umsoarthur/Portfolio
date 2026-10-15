@@ -108,3 +108,6 @@ button{font:inherit;color:inherit;cursor:pointer}
 .dlg{padding:22px !important}
 .dlg-logo{width:88px !important;height:56px !important}
 }
+.sdiv{position:relative}
+.sdiv::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:min(1206px, calc(100% - 48px));height:1px;background-color:rgba(18,24,38,0.10)}
+@media (max-width: 720px){.sdiv::before{width:calc(100% - 40px)}.hero{padding-top:112px !important}}
