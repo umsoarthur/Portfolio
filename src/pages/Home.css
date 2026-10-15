@@ -112,10 +112,19 @@ button{font:inherit;color:inherit;cursor:pointer}
 .sdiv::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:min(1206px, calc(100% - 48px));height:1px;background-color:rgba(18,24,38,0.10)}
 @media (max-width: 720px){.sdiv::before{width:calc(100% - 40px)}.hero{padding-top:112px !important}}
 .hero-art{animation:artIn 1s var(--ease) both}
-.art-cursor{animation:cursorFloat 6s ease-in-out infinite}
+.art-cursor{animation:cursorPath 3.6s cubic-bezier(.65,0,.35,1) .9s both,cursorFloat 6s ease-in-out 4.6s infinite}
+.art-marquee{animation:marquee 3.6s cubic-bezier(.65,0,.35,1) .9s both}
+.art-frame{animation:frameIn 3.6s ease .9s both}
+.hdl{animation:hdlIn 3.6s cubic-bezier(.34,1.56,.64,1) .9s both}
+.art-pill{animation:pillIn 3.6s ease .9s both}
+@keyframes cursorPath{0%{left:80%;top:84%;opacity:0}10%{left:80%;top:84%;opacity:1}32%,38%{left:14%;top:24%}72%,78%{left:86%;top:70%}100%{left:78%;top:80%;opacity:1}}
+@keyframes marquee{0%,38%{opacity:1;transform:scale(0)}72%,78%{opacity:1;transform:scale(1)}86%,100%{opacity:0;transform:scale(1)}}
+@keyframes frameIn{0%,72%{border-color:transparent}78%,100%{border-color:#2A47C2}}
+@keyframes hdlIn{0%,72%{transform:scale(0)}82%,100%{transform:scale(1)}}
+@keyframes pillIn{0%,78%{opacity:0;translate:0 6px}92%,100%{opacity:1;translate:0 0}}
 @keyframes artIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 @keyframes cursorFloat{0%,100%{transform:translate(0,0)}50%{transform:translate(-10px,-6px)}}
-@media (prefers-reduced-motion: reduce){.hero-art,.art-cursor{animation:none !important}}
+@media (prefers-reduced-motion: reduce){.hero-art,.art-cursor,.art-marquee,.art-frame,.hdl,.art-pill{animation:none !important}}
 @media (max-width: 1180px){.h1{font-size:72px !important}.hero-art{width:400px !important}}
 @media (max-width: 1024px){.hero-art{width:100% !important;max-width:460px;align-self:center}}
 @media (max-width: 720px){.h1{font-size:48px !important}.hero-role{font-size:20px !important}.hero-art{display:none !important}.hero{min-height:calc(100svh - 0px) !important;justify-content:flex-end !important}}
