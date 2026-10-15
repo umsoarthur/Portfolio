@@ -131,7 +131,7 @@ nav: [
 ],
 projects: [
 { href: '/projetos/evolucao-coberturas-seguro-auto/', cls: 'pcard', off: 'false', live: true, soon: false, mockOp: 1, mockFilter: 'none', platform: 'Web', kind: 'SaaS', shot: true, web: false, mobile: false, title: 'Evolução das coberturas do seguro auto', sub: 'Ampliando as opções de proteção e evoluindo a experiência de cotação.', company: 'Pier Seguradora', year: '2026', resultValue: '24,5%', resultText: 'das propostas geradas usaram a nova solução' },
-{ href: undefined, cls: 'pcard-off', off: 'true', live: false, soon: true, mockOp: 0.6, mockFilter: 'grayscale(1)', platform: 'Mobile', kind: 'App', shot: false, web: false, mobile: false, phones: true, title: 'Melhorias nos fluxos de gestão de cartões', sub: 'Simplificando jornadas e reduzindo dificuldades na gestão de cartões.', company: 'Caju Benefícios', year: '2023', resultValue: '−30,5%', resultText: 'nos tickets de gestão de cartões' }
+{ href: undefined, cls: 'pcard-off', off: 'true', live: false, soon: true, mockOp: 0.6, mockFilter: 'grayscale(1)', platform: 'Mobile', kind: 'App', shot: false, web: false, mobile: false, phones: true, title: 'Melhorias nos fluxos de cartões', sub: 'Simplificando jornadas e reduzindo dificuldades na gestão de cartões.', company: 'Caju Benefícios', year: '2023', resultValue: '−30,5%', resultText: 'nos tickets de gestão de cartões' }
 ],
 items: [
 { status: 'Conceito', platform: 'Web', g1: true, g2: false, g3: false, g4: false },
