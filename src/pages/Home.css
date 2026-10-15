@@ -111,3 +111,11 @@ button{font:inherit;color:inherit;cursor:pointer}
 .sdiv{position:relative}
 .sdiv::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:min(1206px, calc(100% - 48px));height:1px;background-color:rgba(18,24,38,0.10)}
 @media (max-width: 720px){.sdiv::before{width:calc(100% - 40px)}.hero{padding-top:112px !important}}
+.hero-art{animation:artIn 1s var(--ease) both}
+.art-cursor{animation:cursorFloat 6s ease-in-out infinite}
+@keyframes artIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes cursorFloat{0%,100%{transform:translate(0,0)}50%{transform:translate(-10px,-6px)}}
+@media (prefers-reduced-motion: reduce){.hero-art,.art-cursor{animation:none !important}}
+@media (max-width: 1180px){.h1{font-size:72px !important}.hero-art{width:400px !important}}
+@media (max-width: 1024px){.hero-art{width:100% !important;max-width:460px;align-self:center}}
+@media (max-width: 720px){.h1{font-size:48px !important}.hero-role{font-size:20px !important}.hero-art{display:none !important}.hero{min-height:calc(100svh - 0px) !important;justify-content:flex-end !important}}
