@@ -8,6 +8,8 @@ import { dirname, join } from 'node:path';
 const pages = [
   { name: 'home', entry: 'src/main-home.jsx', html: 'index.html' },
   { name: 'case-pier', entry: 'src/main-case-pier.jsx', html: 'projetos/evolucao-coberturas-seguro-auto/index.html' },
+  { name: 'home-en', entry: 'src/main-home-en.jsx', html: 'en/index.html' },
+  { name: 'case-pier-en', entry: 'src/main-case-pier-en.jsx', html: 'en/projects/auto-insurance-coverage/index.html' },
 ];
 
 rmSync('dist', { recursive: true, force: true });
@@ -35,7 +37,7 @@ const result = await esbuild.build({
 for (const p of pages) {
   const outs = Object.entries(result.metafile.outputs).filter(([, o]) => o.entryPoint === p.entry);
   const js = outs.map(([f]) => f).find((f) => f.endsWith('.js'));
-  const css = Object.keys(result.metafile.outputs).find((f) => f.endsWith('.css') && f.includes(`/${p.name}-`));
+  const css = Object.keys(result.metafile.outputs).find((f) => f.endsWith('.css') && new RegExp(`/${p.name}-[A-Z0-9]+\\.css$`).test(f));
   let html = readFileSync(p.html, 'utf8');
   if (css) html = html.replace('</head>', `  <link rel="stylesheet" href="/${css.replace(/^dist\//, '')}">\n  </head>`);
   html = html.replace(/<script type="module" src="\/src\/[^"]+"><\/script>/, `<script type="module" src="/${js.replace(/^dist\//, '')}"></script>`);
