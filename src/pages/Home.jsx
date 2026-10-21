@@ -86,7 +86,7 @@ const data = [
     { value: '−4,5 p.p.', label: 'na taxa de abandono da ativação de cartões (12% → 7,5%).' },
     { value: '~1.000', label: 'atendimentos de suporte a menos.' }
   ], highlights: [] },
-{ period: '2025 — Hoje', role: 'Product Designer Pleno', company: 'Pier', current: true, logo: '/assets/logo-pier.svg', logoH: '18px',
+{ period: '2025 — Hoje', role: 'Product Designer Sênior', company: 'Pier', current: true, logo: '/assets/logo-pier.svg', logoH: '18px',
   resp: [
     { b: 'Discovery e pesquisa: ', t: 'conduzi benchmark competitivo, matriz CSD e pesquisa quantitativa com corretores para identificar oportunidades de novas coberturas.' },
     { b: 'Estratégia de produto: ', t: 'transformei os insights da investigação em critérios de priorização, considerando necessidades dos corretores e competitividade no mercado.' },
