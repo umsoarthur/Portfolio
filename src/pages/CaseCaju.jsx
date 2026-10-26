@@ -59,8 +59,8 @@ const flows = [
 { label: 'Ativar cartão físico', video: '/assets/caju-ativacao.mp4', times: [0, 2.5, 7.5, 29, 34, 44.5, 56, 60], steps: [
 { img: '/assets/caju-ativ-01-home.jpg', cap: 'Aviso na home', alt: 'Home do app com o aviso de que o cartão chegará em breve' },
 { img: '/assets/caju-ativ-02-status.jpg', cap: 'Status da entrega', alt: 'Status de entrega do novo cartão com as opções Recebi meu cartão e O endereço está incorreto' },
-{ img: '/assets/caju-ativ-03-escolha.jpg', cap: 'Escolha do cartão recebido', alt: 'Tela Qual cartão você recebeu? com os modelos de cartão' },
-{ img: '/assets/caju-ativ-04-codigo-ajuda.jpg', cap: 'Onde encontrar o código', alt: 'Modal explicando onde fica o código de ativação no verso do cartão' },
+{ img: '/assets/caju-ativ-03-escolha.jpg', cap: 'Escolha do cartão', alt: 'Tela Qual cartão você recebeu? com os modelos de cartão' },
+{ img: '/assets/caju-ativ-04-codigo-ajuda.jpg', cap: 'Onde achar o código', alt: 'Modal explicando onde fica o código de ativação no verso do cartão' },
 { img: '/assets/caju-ativ-05-codigo.jpg', cap: 'Código de ativação', alt: 'Tela Ativar novo cartão com o campo do código de ativação' },
 { img: '/assets/caju-ativ-06-senha.jpg', cap: 'Criação de senha', alt: 'Tela para criar uma senha de 4 dígitos' },
 { img: '/assets/caju-ativ-07-ativado-v2.jpg', cap: 'Cartão ativado', alt: 'Confirmação Cartão físico ativado' },
