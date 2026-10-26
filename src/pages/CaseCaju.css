@@ -248,3 +248,12 @@ a.lang-b:hover{color:var(--ink);background-color:#F4F5F7}
 .fx-tc{display:flex;align-items:baseline;gap:6px;font-size:12px;font-weight:500;line-height:1.35}
 @media (max-width: 1024px){.fx{grid-template-columns:minmax(0,1fr);gap:28px}.fx-main{width:min(300px,100%);margin:0 auto}.fx-thumbs{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:112px;overflow-x:auto;padding:4px 4px 8px;scrollbar-width:thin}}
 @media (max-width: 720px){.fx{padding:24px 20px}.fx-main{width:min(260px,100%)}}
+.fx{grid-template-columns:360px minmax(0,1fr);gap:48px}
+.fx-thumbs{grid-template-columns:repeat(4,155px);gap:32.5px 32px;padding-top:0}
+.fx-th{gap:8px}
+.fx-tc{min-height:32px;align-items:flex-start}
+.fx-tf{box-shadow:none}
+.fx-th[aria-pressed="true"] .fx-tf,.fx-th:focus-visible .fx-tf{box-shadow:0 0 0 3px #ECEEF2, 0 0 0 5px var(--accent)}
+@media (max-width: 1180px){.fx{grid-template-columns:300px minmax(0,1fr)}.fx-thumbs{grid-template-columns:repeat(4,minmax(0,140px));gap:24px 20px}}
+@media (max-width: 1024px){.fx{grid-template-columns:minmax(0,1fr)}.fx-main{width:min(320px,100%)}.fx-thumbs{grid-template-columns:none;grid-auto-columns:112px;gap:16px}}
+@media (max-width: 720px){.fx-main{width:min(260px,100%)}}
