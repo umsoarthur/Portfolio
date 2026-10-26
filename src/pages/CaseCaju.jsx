@@ -66,14 +66,14 @@ const flows = [
 { img: '/assets/caju-ativ-07-ativado-v2.jpg', cap: 'Cartão ativado', alt: 'Confirmação Cartão físico ativado' },
 { img: '/assets/caju-ativ-08-cartao.jpg', cap: 'Cartão físico no app', alt: 'Aba Cartões com o cartão físico, código, validade, categorias e ações' }
 ] },
-{ label: 'Bloqueio/Desbloqueio do cartão', video: '', times: [], steps: [
+{ label: 'Bloqueio e desbloqueio', video: '', times: [], steps: [
 { img: '/assets/caju-ativ-08-cartao.jpg', cap: 'Cartão físico ativo', alt: 'Aba Cartões com o cartão físico e a ação Bloquear' },
 { img: '/assets/caju-bloq-02-bloquear.jpg', cap: 'Confirmar bloqueio', alt: 'Modal Bloquear cartão explicando o bloqueio temporário' },
 { img: '/assets/caju-bloq-03-bloqueado.jpg', cap: 'Cartão bloqueado', alt: 'Cartão físico bloqueado com as opções Desbloquear e Solicitar 2ª via' },
 { img: '/assets/caju-bloq-04-desbloquear.jpg', cap: 'Desbloqueio', alt: 'Modal para digitar os 6 últimos dígitos do código de ativação' }
 ] },
 { label: 'Alterar senha do cartão', video: '', times: [], steps: [
-{ img: '/assets/caju-senha-01-cartao.jpg', cap: 'Ação Senha no cartão', alt: 'Aba Cartões com o cartão físico e as ações Bloquear, Senha, Aproximação e 2ª via' },
+{ img: '/assets/caju-senha-01-cartao.jpg', cap: 'Alteração de senha', alt: 'Aba Cartões com o cartão físico e as ações Bloquear, Senha, Aproximação e 2ª via' },
 { img: '/assets/caju-senha-02-formulario.jpg', cap: 'Nova senha', alt: 'Formulário com senha do aplicativo, seis últimos dígitos do código de ativação e nova senha do cartão físico' },
 { img: '/assets/caju-senha-03-codigo-ajuda.jpg', cap: 'Onde achar o código', alt: 'Modal explicando onde fica o código de ativação no verso do cartão' },
 { img: '/assets/caju-senha-04-sucesso.jpg', cap: 'Senha alterada', alt: 'Aviso de senha alterada com sucesso sobre a aba Cartões' }
