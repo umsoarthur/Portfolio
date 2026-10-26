@@ -51,7 +51,7 @@ const ink = this.props.ink ?? '#121826';
 const stuck = !!this.state.stuck;
 const B = '';
 const flows = [
-{ label: 'Ativar cartão físico', video: '/assets/caju-ativacao.mp4', times: [0, 2.5, 7.5, 29, 34, 44.5, 56, 60], steps: [
+{ label: 'Ativar cartão físico', video: '/assets/caju-ativacao-v2.mp4', times: [0, 2.25, 6.25, 22.75, 27.25, 35.75, 47, 50.25], steps: [
 { img: '/assets/caju-ativ-01-home.webp', cap: 'Aviso na home', alt: 'Home do app com o aviso de que o cartão chegará em breve' },
 { img: '/assets/caju-ativ-02-status.webp', cap: 'Status da entrega', alt: 'Status de entrega do novo cartão com as opções Recebi meu cartão e O endereço está incorreto' },
 { img: '/assets/caju-ativ-03-escolha.webp', cap: 'Escolha do cartão', alt: 'Tela Qual cartão você recebeu? com os modelos de cartão' },
