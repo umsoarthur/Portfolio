@@ -257,3 +257,19 @@ a.lang-b:hover{color:var(--ink);background-color:#F4F5F7}
 @media (max-width: 1180px){.fx{grid-template-columns:300px minmax(0,1fr)}.fx-thumbs{grid-template-columns:repeat(4,minmax(0,140px));gap:24px 20px}}
 @media (max-width: 1024px){.fx{grid-template-columns:minmax(0,1fr)}.fx-main{width:min(320px,100%)}.fx-thumbs{grid-template-columns:none;grid-auto-columns:112px;gap:16px}}
 @media (max-width: 720px){.fx-main{width:min(260px,100%)}}
+.fx-main{display:flex;flex-direction:column;gap:16px}
+.fx-ph{position:relative}
+.fx-vid{cursor:pointer;background-color:#000000}
+.fx-pp{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center;width:64px;height:64px;border-radius:50%;background-color:rgba(18,24,38,0.72);color:#FFFFFF;pointer-events:none;padding-left:3px;box-sizing:border-box}
+.fx-seek{display:flex;align-items:center;gap:12px}
+.fx-range{-webkit-appearance:none;appearance:none;flex:1;min-width:0;height:4px;margin:0;border-radius:2px;background:linear-gradient(to right, var(--accent) var(--p, 0%), rgba(18,24,38,0.2) var(--p, 0%));cursor:pointer}
+.fx-range::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background-color:var(--accent);border:2px solid #FFFFFF;box-shadow:0 0 0 1px rgba(18,24,38,0.2)}
+.fx-range::-moz-range-thumb{width:12px;height:12px;border-radius:50%;background-color:var(--accent);border:2px solid #FFFFFF}
+.fx-range:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.fx-time{flex:none;font-size:11px;color:rgba(18,24,38,0.72);font-variant-numeric:tabular-nums}
+.fx-vbtn{align-self:center;display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 20px;border-radius:999px;border:1px solid rgba(18,24,38,0.2);background-color:#FFFFFF;font-family:inherit;font-size:14px;font-weight:500;color:var(--ink);cursor:pointer;transition:border-color .3s var(--ease)}
+.fx-vbtn:hover{border-color:rgba(18,24,38,0.5)}
+.fx-vbtn:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.fx-thumbs{transition:opacity .4s var(--ease), filter .4s var(--ease)}
+.fx-dim{opacity:0.25;filter:grayscale(1);pointer-events:none}
+@media (prefers-reduced-motion: reduce){.fx-thumbs{transition:none}}
