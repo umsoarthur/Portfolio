@@ -273,3 +273,14 @@ a.lang-b:hover{color:var(--ink);background-color:#F4F5F7}
 .fx-thumbs{transition:opacity .4s var(--ease), filter .4s var(--ease)}
 .fx-dim{opacity:0.25;filter:grayscale(1);pointer-events:none}
 @media (prefers-reduced-motion: reduce){.fx-thumbs{transition:none}}
+.fx-bar{position:absolute;left:6px;right:6px;bottom:6px;z-index:2;display:flex;align-items:center;gap:10px;padding:36px 16px 16px;border-radius:0 0 24px 24px;background:linear-gradient(to top, rgba(0,0,0,0.62), rgba(0,0,0,0));opacity:0;pointer-events:none;transition:opacity .3s var(--ease)}
+.fx-v:hover .fx-bar,.fx-paused .fx-bar,.fx-flash .fx-bar,.fx-bar:focus-within{opacity:1;pointer-events:auto}
+.fx-shade{position:absolute;left:6px;right:6px;top:6px;bottom:6px;z-index:1;border-radius:24px;background-color:rgba(0,0,0,0.32);opacity:0;pointer-events:none;transition:opacity .3s var(--ease)}
+.fx-paused .fx-shade{opacity:1}
+.fx-pp{z-index:2}
+.fx-bar .fx-range{background:linear-gradient(to right, #FFFFFF var(--p, 0%), rgba(255,255,255,0.35) var(--p, 0%))}
+.fx-bar .fx-range::-webkit-slider-thumb{background-color:#FFFFFF;border:0;box-shadow:0 1px 4px rgba(0,0,0,0.4)}
+.fx-bar .fx-range::-moz-range-thumb{background-color:#FFFFFF;border:0}
+.fx-bar .fx-range:focus-visible{outline:2px solid #FFFFFF;outline-offset:4px}
+.fx-bar .fx-time{color:#FFFFFF}
+@media (prefers-reduced-motion: reduce){.fx-bar,.fx-shade{transition:none}}
