@@ -6,6 +6,7 @@ Site com duas páginas:
 |---|---|
 | Home (hero, projetos, sobre mim, contato) | `/` |
 | Case: Evolução das coberturas do seguro Auto | `/projetos/evolucao-coberturas-seguro-auto/` |
+| Case: Melhorias nos fluxos de gestão de cartões (Caju) | `/projetos/melhorias-gestao-cartoes/` |
 | Home em inglês | `/en/` |
 | Case em inglês | `/en/projects/auto-insurance-coverage/` |
 
@@ -49,6 +50,7 @@ Veja o passo a passo completo nas instruções que acompanham este arquivo.
 
 - Textos da Home: `src/pages/Home.jsx`
 - Textos do case: `src/pages/CasePier.jsx`
+- Textos do case da Caju: `src/pages/CaseCaju.jsx`
 - Versão em inglês: `src/pages/HomeEN.jsx` e `src/pages/CasePierEN.jsx`
 
 Use a busca do editor (Ctrl/Cmd + F) para achar a frase, troque e salve. No GitHub dá para editar direto pelo navegador (ícone de lápis), e a Vercel publica a nova versão sozinha em ~1 minuto.

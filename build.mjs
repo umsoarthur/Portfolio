@@ -8,6 +8,7 @@ import { dirname, join } from 'node:path';
 const pages = [
   { name: 'home', entry: 'src/main-home.jsx', html: 'index.html' },
   { name: 'case-pier', entry: 'src/main-case-pier.jsx', html: 'projetos/evolucao-coberturas-seguro-auto/index.html' },
+  { name: 'case-caju', entry: 'src/main-case-caju.jsx', html: 'projetos/melhorias-gestao-cartoes/index.html' },
   { name: 'home-en', entry: 'src/main-home-en.jsx', html: 'en/index.html' },
   { name: 'case-pier-en', entry: 'src/main-case-pier-en.jsx', html: 'en/projects/auto-insurance-coverage/index.html' },
 ];
