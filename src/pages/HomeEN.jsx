@@ -131,7 +131,7 @@ nav: [
 ],
 projects: [
 { href: '/en/projects/auto-insurance-coverage/', cls: 'pcard', off: 'false', live: true, soon: false, mockOp: 1, mockFilter: 'none', platform: 'Web', kind: 'SaaS', shot: true, web: false, mobile: false, title: 'Expanding auto insurance coverage', sub: 'Expanding protection options and evolving the quote experience.', company: 'Pier Seguradora', year: '2026', resultValue: '24.5%', resultText: 'of insurance quotes incorporated the new solution' },
-{ href: undefined, cls: 'pcard-off', off: 'true', live: false, soon: true, mockOp: 0.6, mockFilter: 'grayscale(1)', platform: 'Mobile', kind: 'App', shot: false, web: false, mobile: false, phones: true, title: 'Improving card management flows', sub: 'Simplifying journeys and reducing friction in card management.', company: 'Caju Benefícios', year: '2023', resultValue: '−30.5%', resultText: 'in card management tickets' }
+{ href: '/en/projects/card-management-flows/', cls: 'pcard', off: 'false', live: true, soon: false, mockOp: 1, mockFilter: 'none', platform: 'Mobile', kind: 'App', shot: false, web: false, mobile: false, phones: true, title: 'Improving card management flows', sub: 'Simplifying journeys and reducing friction in card management.', company: 'Caju Benefícios', year: '2023', resultValue: '−30.5%', resultText: 'in card management tickets' }
 ],
 items: [
 { status: 'Concept', platform: 'Web', g1: true, g2: false, g3: false, g4: false },
