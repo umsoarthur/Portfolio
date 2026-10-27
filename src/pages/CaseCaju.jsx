@@ -107,7 +107,7 @@ steps: [
 { title: 'Dados e comportamento', desc: 'Zendesk, Google Analytics e Clarity' }
 ] },
 { name: 'definição', n: '02', items: [
-{ title: 'Alinhamento com o time', desc: 'Validação das soluções com todo o time' },
+{ title: 'Alinhamento com o time', desc: 'Validação das soluções com todo o time e stakeholders' },
 { title: 'Matriz MoSCoW', desc: 'Priorização com Produto e Engenharia' }
 ] },
 { name: 'ideação e testes', n: '03', items: [
