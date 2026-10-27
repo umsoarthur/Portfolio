@@ -51,15 +51,15 @@ const ink = this.props.ink ?? '#121826';
 const stuck = !!this.state.stuck;
 const B = '';
 const flows = [
-{ label: 'Ativar cartão físico', video: '/assets/caju-ativacao-v2.mp4', times: [0, 2.25, 6.25, 22.75, 27.25, 35.75, 47, 50.25], steps: [
+{ label: 'Ativar cartão físico', video: '/assets/caju-ativacao-v2.mp4', times: [0, 2.25, 6.25, 12, 22.75, 27.25, 35.75, 47], steps: [
 { img: '/assets/caju-ativ-01-home.webp', cap: 'Aviso na home', alt: 'Home do app com o aviso de que o cartão chegará em breve' },
 { img: '/assets/caju-ativ-02-status.webp', cap: 'Status da entrega', alt: 'Status de entrega do novo cartão com as opções Recebi meu cartão e O endereço está incorreto' },
 { img: '/assets/caju-ativ-03-escolha.webp', cap: 'Escolha do cartão', alt: 'Tela Qual cartão você recebeu? com os modelos de cartão' },
+{ img: '/assets/caju-ativ-04-verso.webp', cap: 'Verso do cartão', alt: 'Tela Qual cartão você recebeu? mostrando o verso do cartão vertical com o código de ativação' },
 { img: '/assets/caju-ativ-04-onde-codigo.webp', cap: 'Onde achar o código', alt: 'Modal explicando onde fica o código de ativação no verso do cartão' },
 { img: '/assets/caju-ativ-05-codigo.webp', cap: 'Código de ativação', alt: 'Tela Ativar novo cartão com o campo do código de ativação' },
 { img: '/assets/caju-ativ-06-senha.webp', cap: 'Criação de senha', alt: 'Tela para criar uma senha de 4 dígitos' },
-{ img: '/assets/caju-ativ-07-ativado.webp', cap: 'Cartão ativado', alt: 'Confirmação Cartão físico ativado' },
-{ img: '/assets/caju-ativ-08-cartao.webp', cap: 'Cartão físico no app', alt: 'Aba Cartões com o cartão físico, código, validade e categorias' }
+{ img: '/assets/caju-ativ-07-ativado.webp', cap: 'Cartão ativado', alt: 'Confirmação Cartão físico ativado' }
 ] },
 { label: 'Bloqueio e desbloqueio', video: '/assets/caju-bloqueio.mp4', times: [0, 6.75, 11, 16.75, 22], steps: [
 { img: '/assets/caju-bloq-01-cartao.webp', cap: 'Cartão físico ativo', alt: 'Aba Cartões com o cartão físico, categorias e as ações Bloquear, Senha, Aproximação e 2ª via' },
